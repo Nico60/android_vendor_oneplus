@@ -65,8 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.oneplus.hardware.drmkey@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.drmkey@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.oneplus.hardware.hdcpkey@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.hdcpkey@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.oneplus.hardware.ifaa@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.ifaa@2.0.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.oneplus.hardware.param@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.param@1.0.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/xbin/dashd:$(TARGET_COPY_OUT_VENDOR)/xbin/dashd
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.oneplus.hardware.param@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.param@1.0.so
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/bin/dpmd:system/bin/dpmd \
@@ -1247,7 +1246,8 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     TimeService \
-    WfdCommon
+    WfdCommon \
+    dashd
 
 PRODUCT_PACKAGES += \
     IFAAService \
